@@ -3,11 +3,14 @@
 根据CPU核心数量修改驱动VodoTSCSync的info：核心数-1=IOCPUNumber
 E5-2670为8核16线程，我的cpu是E5-1620,4C8T,所以由15改为7
 
+参考：https://github.com/fuyuanli/x79
+
 # 变频问题
 
 clover configure打开config.plist，修改SMBIOS 型号改为macmini5，2
 再用cpu-s生成ddst 替换 即可5档变频
- 参考：http://bbs.pcbeta.com/viewthread-1127282-1-1.html
+
+参考：http://bbs.pcbeta.com/viewthread-1127282-1-1.html
 
 
 
